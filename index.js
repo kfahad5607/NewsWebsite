@@ -1,4 +1,3 @@
-// 67d14271061343acbb233b70763fa4fe
 let xhr = new XMLHttpRequest();
 xhr.open('GET', 'http://newsapi.org/v2/top-headlines?country=in&category=sports&apiKey=67d14271061343acbb233b70763fa4fe', true);
 
@@ -25,8 +24,6 @@ xhr.onload = function () {
                             </div>
                         </div>`;
             newsAccordion.innerHTML = html;
-
-
         });
     }
 }
